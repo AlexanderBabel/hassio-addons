@@ -16,7 +16,7 @@ auth_api: false
 hassio_role: "default"
 audio: false
 init: false
-startup: application
+startup: services
 boot: auto
 image: alexbabel/owntone
 webui: http://[HOST]:[PORT:3689]

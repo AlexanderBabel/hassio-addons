@@ -1,5 +1,11 @@
 # Changelog
 
+## [28.10-ls172] - 2025-01-05
+### Upstream
+- Update to linuxserver/daapd:28.10-ls172
+- Update librespot-java to 1.6.5
+
+
 ## [28.8-ls118] - 2023-09-06
 ### Upstream
 - Update to linuxserver/daapd:28.8-ls118
@@ -11,7 +17,7 @@ This release fixes an issue with connecting to Spotify. See [librespot-org/libre
 
 ### Upstream
 - Update to linuxserver/daapd:28.6-ls112
-- Update to librespot-java to 1.6.3
+- Update librespot-java to 1.6.3
 
 
 ## [28.6-ls110] - 2023-05-02

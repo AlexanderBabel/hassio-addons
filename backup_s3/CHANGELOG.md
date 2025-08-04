@@ -1,5 +1,13 @@
 # Changelog
 
+## [15.0.9] - 2024-09-28
+
+### Upstream
+- Update to 15.0.9 base image
+
+### Bug fixes
+- Replace `--quiet` with `--no-progress` for the s3 sync command
+
 ## [13.2.0] - 2023-04-14
 
 ### Breaking Changes

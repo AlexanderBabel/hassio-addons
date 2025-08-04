@@ -1,5 +1,5 @@
 name: HomePod Connect Dev
-version: 28.8-ls126
+version: 28.10-ls172
 slug: homepod_connect_dev
 description: This addon is used to test new versions of OwnTone
 arch:

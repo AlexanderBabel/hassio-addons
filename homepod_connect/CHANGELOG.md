@@ -1,5 +1,19 @@
 # Changelog
 
+## [28.10-ls172] - 2025-01-05
+### Upstream
+- Update to linuxserver/daapd:28.10-ls172
+- Update librespot-java to 1.6.5
+
+
+## [28.8-ls126] - 2023-12-29
+
+This release fixes an issue with the latest versions of Home Assistant OS. For more details take a look at the conversation on the in the [Home Assistant Community](https://community.home-assistant.io/t/homepod-connect-spotify-on-homepods-with-spotify-connect/482227/71?u=alexbabel).
+
+### Upstream
+- Update to linuxserver/daapd:28.8-ls126
+
+
 ## [28.8-ls118] - 2023-09-06
 ### Upstream
 - Update to linuxserver/daapd:28.8-ls118

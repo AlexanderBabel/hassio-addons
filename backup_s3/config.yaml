@@ -1,5 +1,5 @@
 name: Backup S3
-version: 14.0.0
+version: 15.0.9
 image: alexbabel/backup-s3
 homeassistant: "2022.4"
 slug: backup_s3

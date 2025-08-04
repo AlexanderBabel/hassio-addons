@@ -1,5 +1,7 @@
 # Hassio Addon for Backing up to S3 Bucket
 
+DEPRECATED - use this custom integration instead: [S3-Compatible](https://github.com/PhantomPhoton/S3-Compatible)
+
 Add-on for uploading hass.io backups to AWS S3.
 
 ## Installation

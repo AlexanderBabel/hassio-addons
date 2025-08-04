@@ -3,7 +3,7 @@ version: 14.0.0
 image: alexbabel/backup-s3
 homeassistant: "2022.4"
 slug: backup_s3
-description: Sync your Home Assistant Supervisor Backups with S3
+description: DEPRECATED - Sync your Home Assistant Supervisor Backups with S3
 url: https://github.com/AlexanderBabel/hassio-addons
 startup: once
 boot: auto

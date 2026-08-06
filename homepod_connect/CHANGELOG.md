@@ -1,41 +1,5 @@
 # Changelog
 
-## [29.3-2] - 2026-08-06
-
-Big one. LinuxServer deprecated the `daapd` image this add-on was built on and
-points at the official OwnTone container, so the image was rebuilt on top of
-that. librespot-java went with it: it has had no release since the Spotify API
-changes of 2025, so Spotify Connect had stopped working on a lot of setups. It
-is replaced by the actively maintained Rust librespot.
-
-Your `owntone.conf` is kept as it is. Two things worth doing after updating:
-
-- Pick "Home Assistant" in Spotify again, the old librespot-java credentials
-  cannot be reused.
-- If you want OwnTone's log in the add-on log tab, set
-  `logfile = "/dev/stderr"` in `/config/owntone/owntone.conf`.
-
-### Upstream
-- Update to OwnTone 29.3 (from 28.10)
-- Replace librespot-java 1.6.5 with librespot 0.8.0
-
-### Changed
-- Base image is now the official `owntone/owntone` container, services run
-  under OpenRC instead of s6
-- The Spotify pipe moved from `/music/librespot-java` to `/music/Spotify`
-- librespot is configured through `/config/owntone/librespot.conf` instead of
-  `librespot-java.toml`, and that file lists the options worth changing
-- The volume slider in Spotify is passed to OwnTone, which sets it on the
-  speaker, so it takes effect immediately instead of after the buffer
-- Image is pulled from `ghcr.io/alexanderbabel/owntone`
-- No JRE in the image anymore
-- The Spotify audio cache in `/config` is capped at 1 GB
-
-### Removed
-- `/config/owntone/librespot-java.toml` and `credentials.json` are unused now
-  and can be deleted
-
-
 ## [28.10-ls172] - 2025-01-05
 ### Upstream
 - Update to linuxserver/daapd:28.10-ls172

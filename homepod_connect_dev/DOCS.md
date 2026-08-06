@@ -1,6 +1,6 @@
 # HomePod Connect
 
-This addons allows to use OwnTone and Spotify Connect with librespot-java on Home Assistant OS.
+This addons allows to use OwnTone and Spotify Connect with librespot on Home Assistant OS.
 
 
 ## Configuration
@@ -9,7 +9,7 @@ This addons allows to use OwnTone and Spotify Connect with librespot-java on Hom
 
 You can configure OwnTone through its configuration file. It can be found at `/config/owntone/owntone.conf`.
 
-Librespot-java is configurable through its configuration file at `/config/owntone/librespot-java.toml`
+librespot is configurable through `/config/owntone/librespot.conf`, where you can set the name shown in Spotify (`LIBRESPOT_NAME`) and any extra [librespot flags](https://github.com/librespot-org/librespot) (`LIBRESPOT_OPTS`).
 
 After adjusting something, please restart the add-on.
 

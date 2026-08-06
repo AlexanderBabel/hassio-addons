@@ -1,5 +1,16 @@
 # Changelog
 
+## [29.3-4] - 2026-08-06
+
+### Bug fixes
+- Pause, stop and seek take effect immediately. What OwnTone had already
+  buffered kept playing for a moment, it is now thrown away.
+
+### Changed
+- Start at 50% volume instead of 100%. Existing installs keep what is in
+  `/config/owntone/librespot.conf`.
+
+
 ## [29.3-3] - 2026-08-06
 
 ### Bug fixes

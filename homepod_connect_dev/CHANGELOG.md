@@ -1,5 +1,13 @@
 # Changelog
 
+## [29.3-3] - 2026-08-06
+
+### Bug fixes
+- A volume change was applied twice: right away on the speaker and again a
+  moment later, because librespot kept mixing it into the audio as well. It
+  now leaves the audio alone.
+
+
 ## [29.3-2] - 2026-08-06
 
 ### Bug fixes
@@ -10,7 +18,7 @@
 
 ### Added
 - `/config/owntone/librespot.conf` now lists the librespot options worth
-  changing, plus `LIBRESPOT_VOLUME_CTRL` to go back to librespot-side volume
+  changing, plus `LIBRESPOT_VOLUME_OPTS` to go back to librespot-side volume
 - Cap the Spotify audio cache in `/config` at 1 GB
 
 

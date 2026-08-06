@@ -1,5 +1,5 @@
 name: HomePod Connect
-version: 28.10-ls172
+version: 29.3-4
 slug: homepod_connect
 description: Play Spotify music on your HomePods through Spotify Connect
 arch:
@@ -18,7 +18,7 @@ audio: false
 init: false
 startup: application
 boot: auto
-image: alexbabel/owntone
+image: ghcr.io/alexanderbabel/owntone
 webui: http://[HOST]:[PORT:3689]
 stage: experimental
 url: https://community.home-assistant.io/t/homepod-connect-spotify-on-homepods-with-spotify-connect/482227

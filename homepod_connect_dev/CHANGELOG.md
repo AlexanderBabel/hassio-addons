@@ -1,5 +1,19 @@
 # Changelog
 
+## [29.3-2] - 2026-08-06
+
+### Bug fixes
+- The volume slider in Spotify takes effect immediately again. librespot mixed
+  the volume into the audio itself, so a change was only heard once OwnTone's
+  buffer had caught up. It is now handed over to OwnTone, which sets it on the
+  speaker directly.
+
+### Added
+- `/config/owntone/librespot.conf` now lists the librespot options worth
+  changing, plus `LIBRESPOT_VOLUME_CTRL` to go back to librespot-side volume
+- Cap the Spotify audio cache in `/config` at 1 GB
+
+
 ## [29.3-1] - 2026-08-06
 
 Big one. LinuxServer deprecated the `daapd` image this add-on was built on and

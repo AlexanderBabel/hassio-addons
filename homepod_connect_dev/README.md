@@ -5,7 +5,7 @@ This add-on allows you to stream music directly to your HomePods from Spotify.
 You can find more details on the [Home Assistant Community post](https://community.home-assistant.io/t/homepod-connect-spotify-on-homepods-with-spotify-connect/482227) and in the Documentation tab.
 
 ## Features
-- OwnTone & librespot-java inside one Docker image
+- OwnTone & librespot inside one Docker image
 - Ready out of the box with zeroconf & Home Assistant integration
 - Control OwnTone through Home Assistant
 - Metadata support (visible in Home Assistant)
